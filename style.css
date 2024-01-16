@@ -4,6 +4,26 @@
 *{
     font-family: 'Inter', sans-serif;
 }
+
+.nav{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+li > a{
+    text-decoration: none;
+    color: black;
+    margin-left: 2rem;
+}
+
+nav > div> ul > li{
+    list-style: none;
+    justify-content: space-between;
+}
+
 .banner{
     width: 73rem;
     height: 31rem;
@@ -18,7 +38,7 @@
 
 .fast-text{
     position: absolute;
-    top: 33%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
@@ -99,6 +119,80 @@ main{
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5rem;
+}
+
+.maldive-img{
+    background-image: url(Images/maldive.png);
+    background-repeat: no-repeat;
+    width: 573px;
+    height: 300px;
+    padding: 140px 240px;
+}
+
+.maldive{
+    font-size: 26px;
+    font-weight: 600;
+    color: white;
+}
+
+.indo-img{
+    background-image: url(Images/indonesia.png);
+    background-repeat: no-repeat;
+    width: 573px;
+    height: 300px;
+    padding: 140px 240px;
+}
+
+.sri-img{
+    background-image: url(Images/srilanka.png);
+    background-repeat: no-repeat;
+    height: 286px;
+    width: 360px;
+    margin-top: -16.5rem;
+    padding: 140px 160px;
+}
+
+.srilanka{
+    color: white;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.na-img{
+    background-image: url(Images/north-a.png);
+    background-repeat: no-repeat;
+    margin-top: -16.5rem;
+    margin-left: -5.5rem;
+    width: 474px;
+    height: 286px;
+    padding: 140px;
+}
+
+.north-text{
+    color: white;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.kashmir-img{
+    background-image: url(Images/kashmir.png);
+    margin-top: -16.5rem;
+    background-repeat: no-repeat;
+    margin-right: -5rem;
+    width: 274px;
+    height: 286px;
+    padding: 120px 120px;
+    
+}
+
+.kashmir{
+    color: white;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.bangladesh{
+    background-image: url(Images/bangladesh.png);
 }
 
 .cyd-s{
