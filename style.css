@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+
+
+*{
+    font-family: 'Inter', sans-serif;
+}
+.banner{
+    width: 73rem;
+    height: 31rem;
+    border-radius: 1rem;
+    background: linear-gradient( #070211 0%, rgba(7, 2, 17, 0) 100%), url(Images/banner.jpg);
+    background-repeat: no-repeat;
+    margin: auto;
+    margin-top: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.fast-text{
+    position: absolute;
+    top: 33%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+
+.eyt{
+    font-size: 4rem;
+    font-family: 'Mulish', sans-serif;
+}
+
+.dsac-1{
+    color: white;
+    font-size: 1rem;
+    opacity: 50%;
+    font-family: 'Mulish', sans-serif;
+    margin: auto;
+    text-align: center;
+}
+
+.innput-div{
+    padding: 2rem;
+    display: flex;
+    background-color: rgb(248, 243, 243);
+    height: max-content;
+    width: max-content;
+    opacity: 50%;
+}
+
+.button{
+    padding: 0.7rem;
+    border-radius: 0.5rem;
+    background: #FF5400;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    margin: 0.5rem;
+    border: none;
+    width: 10rem;
+    height: 3.25rem;
+}
+
+.ff{
+    margin: 0.5rem;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+
+main{
+    background-color: white;
+    margin: auto;
+    margin-top: 3.5rem;
+    width: 80%;
+    height: auto;
+}
+
+.opt{
+    margin: auto;
+    font-size: 2.5rem;
+    text-align: left;
+    font-weight: 800;
+}
+
+.main-1{
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin-top: 5rem;
+}
+
+.main-d1{
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+
+.cyd-s{
+    margin: auto;
+    margin-top: 5rem;
+    text-align: center;
+    height: auto;
+    width: 100%;
+}
+
+.msd-2{
+    text-align: center;
+    height: auto;
+    width: 40rem;
+    margin: auto;
+}
+
+.cyd{
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+}
+
